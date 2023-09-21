@@ -1,16 +1,22 @@
 # Install OS on Pi
-# Execute this script
-# Start Main
-# Main is fed with input
+# Execute this script for Setup
 
-sudo apt-get update && audo apt-get upgrade#
+# Update
+sudo apt-get update && audo apt-get upgrade
 
+# Load dir and dependencies
 git clone https://github.com/ldroll/io-ml-test
 cd io-ml-test
 
+# Install libraries
 sudo pip3 install virtualenv
 python3 -m venv ml-test-env
 source ml-test-env/bin/activate
+sudo pip3 install PIL
+sudo pip3 install 
+sudo pip3 install numpy
 
 python3 -m pip install tflite-runtime
 
+# Start Main
+# Main is fed with input
