@@ -8,14 +8,10 @@ sudo apt-get update && audo apt-get upgrade
 git clone https://github.com/ldroll/io-ml-test
 cd io-ml-test
 
-# Install libraries
+# Install libraries (tflite env)
 sudo pip3 install virtualenv
 python3 -m venv ml-test-env
 source ml-test-env/bin/activate
-sudo pip3 install PIL
-sudo pip3 install 
-sudo pip3 install numpy
-
 python3 -m pip install tflite-runtime
 
 # Start Main
