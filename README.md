@@ -11,7 +11,7 @@ sudo apt-get update && audo apt-get upgrade
 ```
 
 ## Download Model and Dependencies
-The `.tflite` model as well as the `tflite-runtime` and other dependencies are downloaded by git cloning this repository and installed by executing `setup.sh`.
+By git cloning this repository and executing `setup.sh`, the `.tflite` model will be downloaded. Due to file size restrictions, the model is not included in this repo but outsourced to a Google drive folder. `tflite-runtime` and other dependencies will also automatically installed.
 ```
 git clone https://github.com/ldroll/io-ml-test
 cd io-ml-test
