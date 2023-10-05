@@ -3,7 +3,8 @@ This project is for testing the implementation of pre-trained machine learning m
 Since this project shall exist as a comfortable demonstration of the use of edge devices with ML models, the installation and setup process as reduced as much as possible.
 
 ## Pi Setup
-Pi Setup can be done via the typical setup process of installing OS and connecting to the network. For further instructions, see https://www.raspberrypi.com/documentation/computers/getting-started.html
+Pi Setup can be done via the typical setup process of installing OS and connecting to the network. For further instructions, see [RaspPi Documentation](https://www.raspberrypi.com/documentation/computers/getting-started.html).
+
 Make sure to be up to date:
 ```
 sudo apt-get update && audo apt-get upgrade
