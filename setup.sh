@@ -6,6 +6,9 @@ else
   DATA_DIR="$1"
 fi
 
+# Install BLAS for numpy operation.
+apt-get install libopenblas-dev
+
 # Install Python dependencies.
 python3 -m pip install pip --upgrade
 python3 -m pip install -r requirements.txt
