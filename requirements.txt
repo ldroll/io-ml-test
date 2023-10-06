@@ -2,4 +2,4 @@ numpy>=1.20.0
 tflite-runtime
 tflite-support>=0.4.2
 scikit-datasets
-Keras-Preprocessing
+keras
