@@ -18,7 +18,7 @@ By git cloning this repository and executing `setup.sh`, the `.tflite` model wil
 git clone https://github.com/ldroll/io-ml-test
 cd io-ml-test
 sudo chmod +x setup.sh
-sh setup.sh
+sudo /.setup.sh
 ```
 In case this repo is private, you need to include your PAT for git cloning. For instructions, see [Stackoverflow - PAT](https://stackoverflow.com/questions/2505096/clone-a-private-repository-github).
 
